@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>MOHDYANU'S Restaurant</title>
+</head>
+<frameset rows="20%,80%" border="5">  
+    <!-- Divides the page into two horizontal sections:
+
+    Top section (20%) → Displays the restaurant's name & address (header.html).
+    Bottom section (80%) → Split further into two columns.-->
+   
+
+    <!-- Top frame for Restaurant Name & Address -->
+    <frame src="header.html" name="headerFrame">
+
+    <frameset cols="60%,40%" border="5">
+      <!--The bottom section is divided into:
+      Left column (30%) → Loads menu.html (food menu).
+      Right column (70%) → Loads intro.html (restaurant introduction).-->
+
+
+        <!-- Left frame for Food Items -->
+        <frame src="intro.html" name="introFrame">
+        
+        <!-- Right frame for Restaurant Introduction -->
+        <frame src="menu.html" name="menuFrame">
+    
+    
+    
+      </frameset>
+</frameset>
+</html>
+

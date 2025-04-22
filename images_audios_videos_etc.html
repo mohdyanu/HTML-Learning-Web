@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<!--The following program is a all-HTML-based program so some styles which are CSS-based are not used in this program.-->
+
+<head>
+    <title>My first WEB</title>
+</head>
+
+<body bgcolor="lightblue">
+    <H1>HTML LEARNING:</H1>
+    <H2>"IMAGES, AUDIOS, VIDEOS"</H2>
+    <hr>
+    <!-- To add images or audios or videos first add them in the folder you are working on to make a website
+        like for me , i will add them in the folder named "HTML LEARNING" and than add the path of your source -->
+
+
+
+
+
+    <H2>1. IMAGES</H2>
+    <h3>Examples:</h3>
+
+    <H3>MOHD YANU'S PROFILE</H3>
+
+    <a href="https://myaccount.google.com/" target="_blank" title="MOHD YANU'S GOOGLE ACCOUNT">
+        <img src="Sources/mohdyanu.jpg" height="200px" width="200px" alt="This is a image of Mohd Yanu">
+    </a>
+    <!-- "<img>" is used to add a image in HTML, 
+        "src" (short form of source) is used to specify the path of the image, 
+        "mohdyanu.jpg" is the name of the image which i want to add in my website. 
+        "height and width" is used to specify the height and width of the image. 
+        "alt" is used to specify the description of the image. 
+        We can also make the image a hyperlink by adding "<a>" tag before "<img>" tag and add any path. -->
+
+
+
+
+
+    <H2>2. AUDIOS</H2>
+
+    <h3>I Like this song!</h3>
+    <audio controls src="Sources/TORE UP.mp3">
+        Your browser does not support the audio element.
+        <!-- This is a text which will be shown if the browser does not support the audio.-->
+    </audio>
+
+    <!-- "<audio>" is used to add a audio in HTML,
+        "controls" is a boolean attribute which is used to show the controls of the audio like play, pause, volume etc.
+        There are more attributes you can use in your audio and video tags like:
+        "autoplay" , a boolean attribute used to play the audio automatically when the page is loaded.
+        "loop" , a boolean attribute used to play the audio in a loop.
+        "muted" , a boolean attribute used to mute the audio automatically when page is loaded. -->
+
+
+
+
+
+    <H2>3. VIDEOS</H2>
+    <h3>I like this video!</h3>
+    <video src="Sources/YEAT IWBR EDIT.mp4" controls loop width="600px">
+        Your browser does not support the video element.
+    </video>
+
+    <!-- "<video>" is used to add a video in HTML -->
+
+
+
+
+
+    <h2>4. IFRAMES</h2>
+    <h3>Example: Wikipedia</h3>
+    <iframe src="https://www.wikipedia.com" width="1000px" height="540x">
+        Your browser does not support the iframe element.
+    </iframe>
+    <!-- iframe is a tag used to add a webpage in your webpage it is used to show for ads,
+        videos, maps etc.
+        <iframe> is the tag for adding an iframe.-->
+
+
+
+
+
+    <h2>5. BUTTONS</h2>
+    <h3>Example: GOOGLE BUTTON</h3>
+    <a href="https://www.google.com/" target="_blank">
+        <button>Click Me!</button>
+    </a>
+    <!-- "<button>" is used to add a button in HTML,
+        "Click Me!" is the text which will be shown on the button. 
+        We can also make the button a hyperlink by adding "<a>" tag before "<button>" tag and add any path.
+        to add more styles like color, background color, border, shape etc we can use CSS. -->
+
+
+
+
+
+    <h2>6. FORMS</h2>
+    <h3>Example: SIGN IN FORM</h3>
+    <form>
+
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your First Name" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="lastname">Last Name:</label>
+            <input type="lastname" id="lastname" name="lastname" placeholder="Enter your Last Name">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" placeholder="Enter your birthday" required>
+            </label>
+        </div>
+        <br>
+
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+
+
+    </form>
+    <!-- "<form>" is used to add a form in HTML,
+        "<label>" is used to add a label to the input field like "First Name", "Last Name", "Email" etc,
+        "for" is used to specify which input field the label is for,
+        "<input>" is used to add a input field in HTML,
+        "type" is used to specify the type of the input field like text, password, email, date etc,
+        "id" is used to specify the id of the input field,
+        "name" is used to specify the name of the input field,
+        "placeholder" is used to specify the placeholder of the input field,
+        "required" is used to make the input field required,
+        "<input type="reset">" is used to add a reset button in the form,
+        "<input type="submit">" is used to add a submit button in the form.
+        There are more types of input fields like:
+        "color" , used to add a color picker,
+        "tel" , used to add a telephone number,
+        "number" , used to add quantity or number we can also add min and max atteibutes which will specify the minimum and maximum number.
+        MORE TYPES OF INPUT FIELDS ARE ALSO USED SEE IN YOUTUBE (BROCODE). -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
